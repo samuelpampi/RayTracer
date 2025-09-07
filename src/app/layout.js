@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import 'bootstrap/dist/css/bootstrap.css';
 import "./globals.css";
+import LinkClient from "./component/LinkClient";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,6 +22,28 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {/* Barra de navegación */}
+        
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div className="container-fluid">
+            {/* Logo de la app*/}
+            <img src="/img/raytracer-logo.png" alt="Logo" width="200"/>
+
+            {/* Enlaces de navegación */}
+            <div className="collapse navbar-collapse" id="navbarText">
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <LinkClient route="/" text="Home" />
+                </li>
+                <li className="nav-item">
+                  <LinkClient route="/gpu" text="GPUs" />
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>
+
         {children}
       </body>
     </html>
