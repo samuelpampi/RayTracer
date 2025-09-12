@@ -1,0 +1,100 @@
+{
+    "products": [
+            {
+                "asin": "B01AY78MLM",
+                "product_title": "MSI V809-2000R NVIDIA GeForce GT 710 2GB - Tarjeta gráfica (Pasivo, LP/ATX, GDDR3, PCI Express x8 2.0)",
+                "product_price": "46,21 €",
+                "product_original_price": "63,56 €",
+                "currency": "EUR",
+                "product_star_rating": "4.4",
+                "product_num_ratings": 9900,
+                "product_url": "https://www.amazon.es/dp/B01AY78MLM",
+                "product_photo": "https://m.media-amazon.com/images/I/71WtgWp73QL._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 1
+            },
+            {
+                "asin": "B09Y57F1HL",
+                "product_title": "MSI GeForce RTX 3050 Ventus 2X XS 8G OC",
+                "product_price": "183,94 €",
+                "product_original_price": "239,90 €",
+                "currency": "EUR",
+                "product_star_rating": "4.6",
+                "product_num_ratings": 3762,
+                "product_url": "https://www.amazon.es/dp/B09Y57F1HL",
+                "product_photo": "https://m.media-amazon.com/images/I/714J6o2Ug7L._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 10
+            },
+            {
+                "asin": "B0FKX6LPR6",
+                "product_title": "ASUS ROG Astral GeForce RTX 5080 16GB GDDR7 White OC Edition - Tarjeta gráfica Quad-Fan Que Ofrece un Flujo de Aire y presión de Aire sin precedentes para un Rendimiento óptimo",
+                "product_price": "3.611,41 €",
+                "product_original_price": null,
+                "currency": "EUR",
+                "product_star_rating": "2.7",
+                "product_num_ratings": 0,
+                "product_url": "https://www.amazon.es/dp/B0FKX6LPR6",
+                "product_photo": "https://m.media-amazon.com/images/I/81gkdvlaWTL._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 43
+            },
+            {
+                "asin": "B0789CF1KM",
+                "product_title": "ASUS GT1030-2G-BRK - Tarjeta gráfica (GeForce GT 1030, 2 GB, GDDR5, 64 bit, 7680 x 4320 Pixeles, PCI Express 3.0)",
+                "product_price": "76,96 €",
+                "product_original_price": "91,08 €",
+                "currency": "EUR",
+                "product_star_rating": "4.5",
+                "product_num_ratings": 1452,
+                "product_url": "https://www.amazon.es/dp/B0789CF1KM",
+                "product_photo": "https://m.media-amazon.com/images/I/81SoR9Zhn9L._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 32
+            },
+            {
+                "asin": "B097GMQWRN",
+                "product_title": "maxsun GeForce GT 730 - Tarjeta gráfica de Video GPU para Ordenador (4G GDDR3, ITX, PCI Express, DVI-I, HDMI, VGA 4K)",
+                "product_price": "69,99 €",
+                "product_original_price": "72,99 €",
+                "currency": "EUR",
+                "product_star_rating": "4.2",
+                "product_num_ratings": 260,
+                "product_url": "https://www.amazon.es/dp/B097GMQWRN",
+                "product_photo": "https://m.media-amazon.com/images/I/71RRKvY9HnL._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 56
+            },
+            {
+                "asin": "B0DTGP2WMT",
+                "product_title": "Gigabyte GeForce RTX 5070 WINDFORCE OC SFF 12G Tarjeta Gráfica - 12GB GDDR7, 192 bits, PCI-E 5.0, 2542 MHz Core Clock, 3 x DP 2.1a, 1 x HDMI 2.1b, NVIDIA DLSS 4, GV-N5070WF3OC-12GD",
+                "product_price": "589,90 €",
+                "product_original_price": null,
+                "currency": "EUR",
+                "product_star_rating": "4.3",
+                "product_num_ratings": 178,
+                "product_url": "https://www.amazon.es/dp/B0DTGP2WMT",
+                "product_photo": "https://m.media-amazon.com/images/I/71N6P3QQplL._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 9
+            },
+            {
+                "asin": "B0BY1GHRDV",
+                "product_title": "maxsun AMD Radeon RX 580 8GB Tarjeta Grafica Gaming 2048SP GDDR5 Tarjeta gráfica de vídeo para computadora GPU para Juegos de PC 256 bits DirectX 12 DVI, HDMI, DisplayPort Descodificación 4K (Negro)",
+                "product_price": "139,99 €",
+                "product_original_price": null,
+                "currency": "EUR",
+                "product_star_rating": "4.2",
+                "product_num_ratings": 424,
+                "product_url": "https://www.amazon.es/dp/B0BY1GHRDV",
+                "product_photo": "https://m.media-amazon.com/images/I/71m6ameUioL._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 19
+            },
+            {
+                "asin": "B096Y2TYKV",
+                "product_title": "Gigabyte NVIDIA GeForce RTX 3060 GAMING OC V2 Targeta gráfica - 12GB GDDR6, 192-bit, PCI-E 4.0, 1837MHz Core Clock, RGB, 2x DP 1.4, 2 x HDMI 2.1, NVIDIA Ampere - GV-N3060GAMING OC-8GD",
+                "product_price": "321,33 €",
+                "product_original_price": null,
+                "currency": "EUR",
+                "product_star_rating": "4.5",
+                "product_num_ratings": 2613,
+                "product_url": "https://www.amazon.es/dp/B096Y2TYKV",
+                "product_photo": "https://m.media-amazon.com/images/I/61jN35sc4jS._AC_UL960_FMwebp_QL65_.jpg",
+                "product_num_offers": 21
+            }
+    ]
+}

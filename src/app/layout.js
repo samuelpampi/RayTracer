@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* Barra de navegación */}
         
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div className="container-fluid">
             {/* Logo de la app*/}
             <img src="/img/raytracer-logo.png" alt="Logo" width="200"/>
