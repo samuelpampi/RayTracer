@@ -8,9 +8,10 @@ export async function fetchGPUs(){
     return data;
 }
 
-export async function getGpuDetail({asin}){
-    const res = await fetch(`http://localhost:3005/products/asin=${asin}`);
-
+export async function getGpuDetail(asin) {
+    const res = await fetch(`http://localhost:3005/products?asin=${asin}`);
+  
     if (!res.ok) throw new Error("Failed to get GPU detail");
-    return res.json();
+    const data = await res.json();
+    return data[0]; // porque json-server devuelve un array
 }
