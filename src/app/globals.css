@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 main{
-  margin-top: 80px;
+  padding-top: 80px;
 }
 
 .title-card{
@@ -69,6 +69,15 @@ main{
   -webkit-line-clamp: 3;       /* Número de líneas que quieres mostrar */
   overflow: hidden;
   text-overflow: ellipsis;
+  font-weight: 300;
+}
+
+.top-item{
+  height: 90px;
+}
+
+.title-top:hover{
+  color: darkgreen;
 }
 
 .card{
@@ -76,7 +85,7 @@ main{
 }
 
 .main-home{
-  height: calc(100vh - 80px);
+  height: 100vh;
 }
 
 .full-screen-carousel{

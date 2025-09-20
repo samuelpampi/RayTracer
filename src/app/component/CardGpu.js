@@ -30,7 +30,7 @@ export function CardGpu( {title, price, img, id, rate} ) {
       </div>
       
       <div className="d-flex align-items-center justify-content-center" style={{ height: "310px" }} title={title}>
-        <Card.Img variant="top" src={img} alt="GPU image" style={{ width: "300px"}} />
+        <Card.Img variant="top" src={img} alt="GPU image" style={{ maxHeight: "310px", maxWidth: "300px"}} />
       </div>      
       
       <div>
@@ -39,7 +39,7 @@ export function CardGpu( {title, price, img, id, rate} ) {
           <div className="d-flex justify-content-between align-items-center">
             <span className="fs-3">{price}</span>
             <Button variant="primary" className="ms-3 bg-success border border-0">
-              <Link variant="primary" className="link-light link-underline-opacity-0" href={"./gpu/" + id}>Comprar</Link>
+              <Link variant="primary" className="link-light link-underline-opacity-0" href={"./gpu/" + id}>Mas info</Link>
             </Button>            
           </div>
         </Card.Body>        

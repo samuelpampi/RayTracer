@@ -12,15 +12,16 @@ export default async function GpuDetail({ params}){
     console.log(gpu);
     
     return(
-        <main className="container-fluid min-vh-100 bg-dark text-white">
+        <main className="main-home container-fluid min-vh-100 bg-dark text-white">
             <GpuInfo 
                 title={gpu.product_title} 
+                about={gpu.about_product}
                 price={gpu.product_price} 
                 original_price ={gpu.product_original_price}
                 stars={gpu.product_star_rating}
                 n_rating={gpu.product_num_ratings}
                 url={gpu.product_url}
-                img={gpu.product_photo}
+                images={gpu.product_photos}
                 stock={gpu.product_num_offers}
             />            
         </main>

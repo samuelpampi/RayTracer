@@ -22,7 +22,7 @@ export function BrandFilter({ brands, selectedBrands, onChange }) {
     );
 }
 
-export function PriceFilter({ min, max, value, onChange }) {
+export function PriceFilter({ min, max, value, onChange}) {
   return (
     <div className="mt-5">
       <h4>Precio</h4>
