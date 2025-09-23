@@ -1,5 +1,5 @@
 //Fetch get GPUs
-
+/*
 export async function fetchGPUs(){
     let res;
 
@@ -11,9 +11,9 @@ export async function fetchGPUs(){
 
     return data;
 }
+*/
 
 
-/*
 //Devuelve todas las gpus usando la API de RapidAPI de Real Time Amazon Data
 export async function fetchGPUs(){
     let res;
@@ -24,7 +24,7 @@ export async function fetchGPUs(){
         method: "GET",
         headers: {
           "x-rapidapi-host": "real-time-amazon-data.p.rapidapi.com",
-          "x-rapidapi-key": process.env.RAPIDAPI_KEY, // 👈 tu API key aquí
+          "x-rapidapi-key": "be0447d223mshde5c1dcf5b5b8a1p13010djsnd839128acdf7", // 👈 tu API key aquí
         },
       }
     );    
@@ -36,7 +36,7 @@ export async function fetchGPUs(){
     return data.data?.products || [];
 }
 
-*/
+
 
 /*
 export async function getGpuDetail(asin) {
@@ -57,7 +57,7 @@ export async function getGpuDetail(asin){
         method: "GET",
         headers: {
           "x-rapidapi-host": "real-time-amazon-data.p.rapidapi.com",
-          "x-rapidapi-key": process.env.RAPIDAPI_KEY, // 👈 tu API key aquí
+          "x-rapidapi-key": "be0447d223mshde5c1dcf5b5b8a1p13010djsnd839128acdf7", // 👈 tu API key aquí
         },
       }
     );    
