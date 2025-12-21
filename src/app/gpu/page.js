@@ -19,7 +19,7 @@ function getTopGpus(gpus, topN = 5) {
     .map(g => parseFloat(g.product_star_rating));
   const C = ratings.reduce((a, b) => a + b, 0) / ratings.length;
 
-  const m = 50; // mínimo de votos para "confiabilidad"
+  const m = 50; // minimo de votos para "confiabilidad"
 
   const scored = gpus.map(gpu => {
     const R = parseFloat(gpu.product_star_rating) || 0;
@@ -36,19 +36,28 @@ function getTopGpus(gpus, topN = 5) {
     .slice(0, topN);
 }
 
-// Parsea el precio de string con simbolo€ a float
+// Parsea el precio de un string con simbolo de moneda a float
 function parsePrice(priceStr) {
-    let price = priceStr.replace('€', '').replace('.', '').replace(',', '.').trim();
-    return parseFloat(price);
+    if (typeof priceStr !== "string" || !priceStr.trim()) return null;
+    const normalized = priceStr.replace(/[^\d.,]/g, '').replace('.', '').replace(',', '.').trim();
+    const parsed = parseFloat(normalized);
+    return Number.isNaN(parsed) ? null : parsed;
 }
 
 
 function filter_gpus(gpus, params){
     let filtered_gpus = gpus;
+    console.log(filtered_gpus);
 
     //Si hay filtro de precio, transformamos el precio a float y filtramos el array
     if (params.price){
-        filtered_gpus = gpus.filter(gpu => parsePrice(gpu.product_price) <= parseFloat(params.price));        
+        const maxPrice = parseFloat(params.price);
+        if (!Number.isNaN(maxPrice)) {
+            filtered_gpus = filtered_gpus.filter(gpu => {
+                const parsedPrice = parsePrice(gpu.product_price);
+                return parsedPrice !== null && parsedPrice <= maxPrice;
+            });
+        }
     }
 
     //Si hay filtro de marca, filtramos por palabras clave en el titulo
